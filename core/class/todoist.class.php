@@ -21,7 +21,7 @@ require_once __DIR__  . '/../../../../core/php/core.inc.php';
 
 class todoist extends eqLogic {
     /*     * *************************Attributs****************************** */
-    private api_key = "";
+    private apikey = $this->getConfiguration('apikey');
 
 
     /*     * ***********************Methode static*************************** */
