@@ -1,20 +1,20 @@
 {
-	"id" : "template",
-	"name" : "Template",
-	"description" : "Plugin template pour la création de plugin",
+	"id" : "todoist",
+	"name" : "Todoist",
+	"description" : "Plugin pour la syncronisation de tâches Todoist",
 	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
+	"author" : "Florentin Munsch",
 	"require" : "3.2",
-	"category" : "programming",
+	"category" : "organization",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-template/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-template/#language#/",
+	"changelog" : "",
+	"documentation" : "",
 	"link" : {
-		"forum":"Lien vers le forum",
+		"forum" : "Lien vers le forum",
 		"video" : "Lien vers une video"
 	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
 }
