@@ -27,7 +27,7 @@ if (!isConnect()) {
         <div class="form-group">
             <label class="col-lg-4 control-label">{{API key}} (<a href="https://fr.todoist.com/prefs/integrations" target="_blank">voir ici</a>)</label>
             <div class="col-lg-2">
-                <input class="configKey form-control" data-l1key="param1" />
+                <input class="configKey form-control" data-l1key="apikey" />
             </div>
         </div>
   </fieldset>
