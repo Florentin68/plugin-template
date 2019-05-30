@@ -94,7 +94,7 @@ foreach (object::all() as $object) {
 		</div>
 	</div>
        <div class="form-group">
-        <label class="col-sm-3 control-label">{{template param 1}}</label>
+        <label class="col-sm-3 control-label">{{Paramètres}}</label>
         <div class="col-sm-3">
             <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/>
         </div>
@@ -119,5 +119,5 @@ foreach (object::all() as $object) {
 </div>
 </div>
 
-<?php include_file('desktop', 'template', 'js', 'template');?>
+<?php include_file('desktop', 'todoist', 'js', 'todoist');?>
 <?php include_file('core', 'plugin.template', 'js');?>
