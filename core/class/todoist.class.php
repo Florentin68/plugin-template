@@ -19,9 +19,9 @@
 /* * ***************************Includes********************************* */
 require_once __DIR__  . '/../../../../core/php/core.inc.php';
 
-class template extends eqLogic {
+class todoist extends eqLogic {
     /*     * *************************Attributs****************************** */
-
+    private api_key = "";
 
 
     /*     * ***********************Methode static*************************** */
@@ -106,7 +106,7 @@ class template extends eqLogic {
     /*     * **********************Getteur Setteur*************************** */
 }
 
-class templateCmd extends cmd {
+class todoistCmd extends cmd {
     /*     * *************************Attributs****************************** */
 
 
